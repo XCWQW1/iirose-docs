@@ -1,6 +1,6 @@
 * 介绍
 
-    * [简介](introduction.md)
+    * [简介](README.md)
 
 * 事件
     * [消息](event_message.md)
