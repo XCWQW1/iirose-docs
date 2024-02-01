@@ -1,0 +1,75 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.12" />
+            <item index="1" class="java.lang.String" itemvalue="3.8" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="20">
+            <item index="0" class="java.lang.String" itemvalue="EdgeGPT" />
+            <item index="1" class="java.lang.String" itemvalue="github" />
+            <item index="2" class="java.lang.String" itemvalue="colorama" />
+            <item index="3" class="java.lang.String" itemvalue="pyexecjs" />
+            <item index="4" class="java.lang.String" itemvalue="jieba" />
+            <item index="5" class="java.lang.String" itemvalue="peewee" />
+            <item index="6" class="java.lang.String" itemvalue="discord" />
+            <item index="7" class="java.lang.String" itemvalue="bs4" />
+            <item index="8" class="java.lang.String" itemvalue="Crypto" />
+            <item index="9" class="java.lang.String" itemvalue="docker" />
+            <item index="10" class="java.lang.String" itemvalue="colorthief" />
+            <item index="11" class="java.lang.String" itemvalue="asyncpg" />
+            <item index="12" class="java.lang.String" itemvalue="discord.py" />
+            <item index="13" class="java.lang.String" itemvalue="uvloop" />
+            <item index="14" class="java.lang.String" itemvalue="msgpack-python" />
+            <item index="15" class="java.lang.String" itemvalue="psutil" />
+            <item index="16" class="java.lang.String" itemvalue="enum" />
+            <item index="17" class="java.lang.String" itemvalue="flask" />
+            <item index="18" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="19" class="java.lang.String" itemvalue="PyYAML" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="W605" />
+          <option value="E713" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="importlib.machinery" />
+          <option value="importlib.util" />
+          <option value="bool.*" />
+          <option value="file_type" />
+          <option value="typing.Coroutine.*" />
+          <option value="dict.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnusedLocalInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  </profile>
+</component>
