@@ -23,7 +23,10 @@
         fontsize:'0.9em',
         color:'rgb(90,90,90)',
         language:'chinese'
-      }
+      },
+      plugins: [
+        EditOnGithubPlugin.create(docBase, docEditBase, title)
+      ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -34,6 +37,7 @@
   <script src="js/emoji.min.js"></script>
   <script src="js/countable.js"></script>
   <script src="js/docsify-tabs@1"></script>
+  <script src="js/docsify-edit-on-github"></script>
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
     navigator.serviceWorker.register('js/sw.js')
