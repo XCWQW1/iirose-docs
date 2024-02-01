@@ -10,6 +10,7 @@
 </head>
 <body>
   <div id="app">加载中...</div>
+    <script src="js/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
       name: '蔷薇第三方文档',
@@ -25,7 +26,17 @@
         language:'chinese'
       },
       plugins: [
-        EditOnGithubPlugin.create(docBase, docEditBase, title)
+        EditOnGithubPlugin.create(
+          'https://github.com/XCWQW1/iirose-docs/tree/main',
+          null,
+          function(file) {
+            if (file.indexOf('en') === -1) {
+              return '编辑'
+            } else {
+              return 'edit on git'
+            }
+          }
+        )
       ]
     }
   </script>
@@ -37,7 +48,6 @@
   <script src="js/emoji.min.js"></script>
   <script src="js/countable.js"></script>
   <script src="js/docsify-tabs@1"></script>
-  <script src="js/docsify-edit-on-github"></script>
   <script>
   if (typeof navigator.serviceWorker !== 'undefined') {
     navigator.serviceWorker.register('js/sw.js')
