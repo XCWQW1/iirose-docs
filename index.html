@@ -37,7 +37,6 @@
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="js/darkreader.min.js"></script>
   <script src="js/docsify@4"></script>
   <script src="js/docsify-copy-code.min.js"></script>
   <script src="js/search.min.js"></script>
@@ -49,6 +48,23 @@
   if (typeof navigator.serviceWorker !== 'undefined') {
     navigator.serviceWorker.register('js/sw.js')
   }
+  </script>
+  <script src="js/darkreader.min.js"></script>
+  <script>
+      DarkReader.enable({
+      brightness: 100,
+      contrast: 90,
+      sepia: 10
+  });
+  DarkReader.disable();
+  DarkReader.auto({
+      brightness: 100,
+      contrast: 90,
+      sepia: 10
+  });
+  DarkReader.auto(false);
+  const CSS = await DarkReader.exportGeneratedCSS();
+  const isEnabled = DarkReader.isEnabled();
   </script>
 </body>
 </html>
