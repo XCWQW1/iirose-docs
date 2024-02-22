@@ -7,7 +7,9 @@
     * [消息](markdown/event/event_message.md)
 
 * 接口
+    * [注意事项](markdown/api/api.md)
     * [消息](markdown/api/api_message.md)
+    * [媒体](markdown/api/api_media.md)
 
 * 测试页面
     * [测试](test.md)
