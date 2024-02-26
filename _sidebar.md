@@ -11,5 +11,8 @@
     * [消息](markdown/api/api_message.md)
     * [媒体](markdown/api/api_media.md)
 
+* 语法规范
+    * [字符转义](markdown/note/note_escape_character.md)
+
 * 测试页面
     * [测试](test.md)
