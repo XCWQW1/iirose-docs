@@ -2,7 +2,7 @@
 
 > 记录各种卡片以及媒体事件
 > 
-> 随机数参考[房间消息](https://xc.null.red:8043/docs/#/markdown/api/api_message?id=%e6%88%bf%e9%97%b4%e6%b6%88%e6%81%af)的示例
+> 随机数参考[房间消息](markdown/api/api_message)的示例
 
 ## 媒体卡片
 
@@ -112,7 +112,7 @@
 
 ### 转义
 
-> 媒体卡片的内容，有些字符需要被转义，具体请看 [字符转义](../note/note_escape_character.md)
+> 媒体卡片的内容，有些字符需要被转义，具体请看 [字符转义](markdown/note/note_escape_character)
 
 ---
 
