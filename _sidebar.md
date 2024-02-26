@@ -8,6 +8,7 @@
 
 * 接口
     * [注意事项](markdown/api/api.md)
+    * [移动房间](markdown/api/api_move.md)
     * [消息](markdown/api/api_message.md)
     * [媒体](markdown/api/api_media.md)
 
