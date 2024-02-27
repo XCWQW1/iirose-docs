@@ -112,7 +112,7 @@
 
 ### 转义
 
-> 媒体卡片的内容，有些字符需要被转义，具体请看 [字符转义](markdown/note/note_escape_character)
+> 媒体卡片的内容，事件中键为m的值中所有输入参数都需要被转义，具体请看 [字符转义](markdown/note/note_escape_character)
 
 ---
 
